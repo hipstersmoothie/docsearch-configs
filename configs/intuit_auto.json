@@ -3,7 +3,7 @@
   "start_urls": [
     "https://intuit.github.io/auto/"
   ],
-  "stop_urls": [],
+  "stop_urls": ["https://intuit.github.io/auto/blog", "https://intuit.github.io/auto/blog/(.*)"],
   "selectors": {
     "lvl0": {
       "selector": ".DocSearch-content h1",
